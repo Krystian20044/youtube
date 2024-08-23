@@ -6,31 +6,47 @@
 nav{
     text-align:right;
 }
+#logo {
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    align-items: start;
+}
+#logo2 {
+    display: flex;
+    width: 40%;
+}
 
 header{
     background-color: rgb(249, 253, 253);
     background-size: cover;
+    float: right;
 }
+
+body {
+    background-color: rgb(235, 91, 91);
+}
+
 
 .divulgacao {
     text-align: left ;
     padding: 20px;
-    background-color: rgb(213, 216, 216);
+    background-color: white;
 }
 
 .ceo {
-    background-color: rgb(213, 216, 216);
+    background-color: white;
 }
 
 .depoimentos {
-    background-color: rgb(213, 216, 216);
+    background-color: white;
 }
 
 .endereco {
-    background-color: rgb(213, 216, 216);
+    background-color: white;
 }
 .newslatter {
-    background-color: rgb(213, 216, 216);
+    background-color: white;
     
 }
 
@@ -38,14 +54,16 @@ header{
     background-color: antiquewhite;
 }
 
-.newslatter>button{
+.newslatter>button:hover{
     background-color: antiquewhite;
+    
 }
 
 .contato {
-    background-color: rgb(213, 216, 216);
+    background-color: white;
 }
 
 .divulgacao>figure>image {
     display: inline-block;
 }
+
