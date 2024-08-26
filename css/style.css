@@ -2,10 +2,26 @@
     padding: 15px;
     margin:5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-weight:1000;
 }
 
-#logomarca{
-    text-align: center;
+
+header>figure{
+    float: left;
+    
+}
+
+header>nav{
+    float: right;
+}
+
+
+header{
+    margin: 10px 0px 10px 20px;
+    height:50px;
+    background-size: cover;
 }
 
 .funçoes{
@@ -16,22 +32,6 @@
 }
 
 
-nav{
-    float: left;
-
-}
-
-
-header{
-    
-    height:50px;
-    background-size: cover;
-        
-}
-
-header>figure{
-    float: left;
-}
 
 body {
     background-color:  rgb(216, 47, 47);
@@ -49,25 +49,10 @@ body {
 
 
 .ceo {
-    background-color:  rgb(240, 237, 237);
+    background-color:  white;
     text-align: center;
-}
-
-
-.depoimentos {
-    background-color:  rgb(240, 237, 237);
-}
-
-
-.endereco {
-    background-color:  rgb(240, 237, 237);
-}
-
-.newslatter {
-    background-color:  rgb(240, 237, 237);
-
-}
     
+}
 
 .newslatter>input {
     background-color:  rgb(240, 237, 237);
@@ -77,14 +62,14 @@ body {
 
 .newslatter>button:hover{
 
-    background-color:  rgb(240, 237, 237);   
+    background-color:  white;   
 
 }
     
 
 
 .contato {
-    background-color:  rgb(240, 237, 237);
+    background-color:  white;
     text-align:center;
     
 }
@@ -96,8 +81,15 @@ body {
 }
 
 a{
-    color:azure;
+    color:rgb(74, 17, 206);
     width:50%;
     font-weight: 1000;
 }
 
+.dados {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    bo
+    
+}
