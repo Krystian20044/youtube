@@ -1,69 +1,103 @@
 * {
-    padding: 20px;
-    margin: 15px;
+    padding: 15px;
+    margin:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#logomarca{
+    text-align: center;
+}
+
+.funçoes{
+    background-color: rgb(240, 237, 237);
+    
+    display:inline-flex
+
+}
+
 
 nav{
-    text-align:right;
-}
-#logo {
-    float:left;
-    margin: 0px;
-    padding: 0px;
-    align-items: start;
-}
-#logo2 {
-    display: flex;
-    width: 40%;
+    float: left;
+
 }
 
+
 header{
-    background-color: rgb(249, 253, 253);
+    
+    height:50px;
     background-size: cover;
-    float: right;
+        
+}
+
+header>figure{
+    float: left;
 }
 
 body {
-    background-color: rgb(235, 91, 91);
+    background-color:  rgb(216, 47, 47);
+    width:100%;
+    text-align: center;
 }
 
 
 .divulgacao {
-    text-align: left ;
+    text-align: center ;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(240, 237, 237);
+    
 }
+
 
 .ceo {
-    background-color: white;
+    background-color:  rgb(240, 237, 237);
+    text-align: center;
 }
+
 
 .depoimentos {
-    background-color: white;
+    background-color:  rgb(240, 237, 237);
 }
+
 
 .endereco {
-    background-color: white;
+    background-color:  rgb(240, 237, 237);
 }
+
 .newslatter {
-    background-color: white;
-    
+    background-color:  rgb(240, 237, 237);
+
 }
+    
 
 .newslatter>input {
-    background-color: antiquewhite;
+    background-color:  rgb(240, 237, 237);
+    align-items: center;
 }
 
+
 .newslatter>button:hover{
-    background-color: rgb(206, 203, 199);
+
+    background-color:  rgb(240, 237, 237);   
+
+}
+    
+
+
+.contato {
+    background-color:  rgb(240, 237, 237);
+    text-align:center;
     
 }
 
-.contato {
-    background-color: white;
-}
 
 .divulgacao>figure>image {
     display: inline-block;
+
+}
+
+a{
+    color:azure;
+    width:50%;
+    font-weight: 1000;
 }
 
