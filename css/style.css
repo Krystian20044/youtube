@@ -1,34 +1,44 @@
 * {
-    padding: 15px;
-    margin:5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
     text-decoration: none;
     font-weight:1000;
+    font-size:x-large;
 }
 
+#logomarca{
+    
+    float: left;  
+}
 
 header>figure{
     float: left;
+}
+
+header{
+    height: 120px;
+    background-color: white;
+    margin-right:20px;
+    margin-left:20px;
+    
     
 }
 
 header>nav{
     float: right;
+    padding:70px;
+    
 }
 
-
-header{
-    margin: 10px 0px 10px 20px;
-    height:50px;
-    background-size: cover;
-}
 
 .funçoes{
     background-color: rgb(240, 237, 237);
+    border-top: 7px solid  rgb(216, 47, 47);
+    display:inline-flex;
+    padding: 20px;
     
-    display:inline-flex
-
 }
 
 
@@ -37,22 +47,24 @@ body {
     background-color:  rgb(216, 47, 47);
     width:100%;
     text-align: center;
+    
+    
 }
 
 
 .divulgacao {
     text-align: center ;
-    padding: 20px;
     background-color: rgb(240, 237, 237);
+    border-top: 7px solid  rgb(216, 47, 47);
+    
+    
     
 }
 
 
-.ceo {
-    background-color:  white;
-    text-align: center;
-    
-}
+
+
+
 
 .newslatter>input {
     background-color:  rgb(240, 237, 237);
@@ -62,15 +74,16 @@ body {
 
 .newslatter>button:hover{
 
-    background-color:  white;   
+    background-color:  rgb(240, 237, 237); 
 
 }
     
 
 
 .contato {
-    background-color:  white;
+    background-color:  rgb(240, 237, 237); 
     text-align:center;
+    border-top: 7px solid  rgb(216, 47, 47);
     
 }
 
@@ -81,15 +94,40 @@ body {
 }
 
 a{
-    color:rgb(74, 17, 206);
+    color: rgb(228, 16, 16);
     width:50%;
     font-weight: 1000;
+    padding:20px;
+}
+
+.ceo{
+    background-color:  rgb(240, 237, 237);
+    border-top: 7px solid  rgb(216, 47, 47);
+
 }
 
 .dados {
-    background-color: white;
+    background-color: rgb(240, 237, 237); 
     display: flex;
-    width: 100%;
-    bo
+    border-top: 7px solid  rgb(216, 47, 47);
+    
+    
+    
     
 }
+h1{
+    font-size: xx-large;
+}
+
+#contato{
+    margin-left:250px;
+}
+
+    #newsletter{
+        margin-left:150px;
+    }
+
+    #endereço{
+        display: inline-block;
+        
+    }
